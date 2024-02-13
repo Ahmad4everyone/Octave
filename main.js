@@ -1,5 +1,5 @@
-var close = document.querySelector(".ion")
-var open = document.querySelector(".menu")
+var close = document.querySelector("ion")
+var open = document.querySelector("menu")
 close.addEventListener("click",()=>{
     menu.style.visibility = "hidden"
 })

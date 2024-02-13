@@ -188,7 +188,6 @@ header a .ion{
     width: 300px;
     height: 400px;
     background-color: white;
-    /* border: 0.5px solid black; */
     border-radius: 12px; 
      
 } 
@@ -449,8 +448,30 @@ footer {
         height: 150px;
     }
 }
+@media(max-width: 768px){
+    .heading ul li{
+        display: none;
+    }
+    .heading1{
+        opacity: 1;
+        bottom: 8px;
+    }
+    header{
+        height: 300px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+    #input{
+        width: 200px;
+    }
+    
+    section{
+        overflow-x: hidden;
+    }
+}
 
-@media (max-width:550px){
+@media (max-width:450px){
     .heading ul li{
         display: none;
     }
@@ -466,6 +487,13 @@ footer {
     }
     #input{
         width: 150px;
+    }
+    
+    section{
+        overflow-x: hidden;
+    }
+    footer{
+        overflow-x: hidden;
     }
 }
 
