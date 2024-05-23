@@ -467,7 +467,9 @@ footer {
         flex-direction: column;
     }
     #input{
-        width: 200px;
+        width: 250px;
+        height: 70px;
+        margin-bottom: 10px;
     }
     
     section{
@@ -476,11 +478,7 @@ footer {
 }
 
 @media (max-width:450px){
-    .menu {
-        visibility: visible;
-        color: white;
-        
-    }
+    
     .ahmad a{
         color: coral;
     }
@@ -498,7 +496,9 @@ footer {
         flex-direction: column;
     }
     #input{
-        width: 180px;
+        width: 250px;
+        height: 70px;
+        margin-bottom: 10px;
     }
     
     section{
