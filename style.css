@@ -468,8 +468,9 @@ footer {
     }
     #input{
         width: 250px;
-        height: 70px;
+        height: 50px;
         margin-bottom: 10px;
+        text-align: center;
     }
     
     section{
@@ -481,6 +482,8 @@ footer {
     
     .ahmad a{
         color: coral;
+        align-self: center;
+        overflow: hidden;
     }
     .heading ul li{
         display: none;
@@ -494,11 +497,13 @@ footer {
         flex-wrap: wrap;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
     #input{
-        width: 250px;
-        height: 70px;
+        width: 200px;
+        height: 40px;
         margin-bottom: 10px;
+        overflow: hidden;
     }
     
     section{
@@ -506,6 +511,12 @@ footer {
     }
     footer{
         overflow-x: hidden;
+    }
+    .footer1 #tktk{
+        display: none;
+    }
+    .footer2 .company{
+        margin-left: -35px;
     }
    
 }
