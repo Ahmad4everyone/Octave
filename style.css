@@ -100,50 +100,59 @@ header a .ion{
 }
 @keyframes slide{
     0%{
-        left: 0px;
-
+        /* left: 0px; */
+        transform: translateX(0px);
     }
     15%{
-        left: 0px;
-
+        /* left: 0px; */
+        transform: translateX(0px);
     }
     20%{
-        left: -1080px;
-
+        /* left: -1080px; */
+        transform: translateX(-1080px);
     }
     32%{
-        left: -1080px;
-
+        /* left: -1080px; */
+        transform: translateX(-1080px);
     }
     35%{
-        left: -2160px;
+        /* left: -2160px; */
+        transform: translateX(-2160px);
     }
     47%{
-        left: -2160px;
+        /* left: -2160px; */
+        transform: translateX(-2160px);
     }
     50%{
-        left: -3240px;
+        /* left: -3240px; */
+        transform: translateX(-2160px);
     }
     63%{
-        left: -3240px;
+        /* left: -3240px; */
+        transform: translateX(-2160px);
 
     }
     66%{
-        left: -4320px;
+        /* left: -4320px; */
+        transform: translateX(-2160px);
     }
 
     79%{
-        left: -4320px;
+        /* left: -4320px; */
+        transform: translateX(-2160px);
     }
     82%{
-        left: -5400px;
+        /* left: -5400px; */
+        transform: translateX(-2160px);
         
     }
     90%{
-        left: -6000px;
+        /* left: -6000px; */
+        transform: translateX(-6000px);
     }
     100%{
-        left: 0px;
+        /* left: 0px; */
+        transform: translateX(0px);
     }
 }
 
